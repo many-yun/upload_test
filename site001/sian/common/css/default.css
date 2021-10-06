@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+ 
+ 
+
+/* Default Style */
+
+ 
+ * 	  	{margin:0; padding:0; font-family: 'Raleway', 'Noto Sans KR',  "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif; letter-spacing:.2rem;  box-sizing: border-box;}
+
+::selection {background:#005a96; color:#FFF; text-shadow:none;}
+
+p, div { letter-spacing:-0.7px;}
+	
+td   {vertical-align:middle;}
+
+ul, ol, li {list-style:none;}
+
+img			{border:0px;}
+strong, b		{font-weight:600;}
+
+/* Link Style */
+a:link		{text-decoration:none; color:#111;}
+a:visited	{ text-decoration:none; color:#111;}
+a:hover		{ text-decoration:none; color:#111;}
+a:active	{text-decoration:none; color:#111;}
+
+a {selector-dummy: expression(this.hideFocus=true);} /* 일반 링크포커스 감추기 */
+a,img {selector-dummy: expression(this.hideFocus=true);} /* 이미지맵 링크포커스 감추기 */
+
+/* Table Style */
+
+table  		{border-collapse:collapse;}
+
+/* From Style */
+input		{vertical-align: top; font-family:'Noto Sans KR',"NanumGothic",NanumGothic,verdana,'Malgun Gothic',맑은고딕,sans-serif; }
+select {font-family:'Noto Sans KR',"NanumGothic",NanumGothic,verdana,'Malgun Gothic',맑은고딕,sans-serif; }
+textarea {font-family:'Noto Sans KR',"NanumGothic",NanumGothic,verdana,'Malgun Gothic',맑은고딕,sans-serif; }
+ 
+pre  {white-space:pre-wrap; /*공백이나 탭공간을 그대로 둔다*/ word-break:break-all; /*텍스트가 넘칠경우 줄바꿈을 해준다*/ }
+
+.hand	{cursor:pointer;}
+
+.inline {display:inline-block;}
+
+.u		{text-decoration:underline}
+
+.l		{text-align:left !important;}
+.c		{text-align:center !important;}
+.r		{text-align:right !important;}
+
+.d_flex {display:flex !important;  }
+.between {justify-content:space-between }
+
+/* float */
+.float_left		{float:left !important;}
+.float_right	{float:right !important;}
+.clear_both		{clear:both;}
+
+
+
+ /* Margin Set */
+.lm5	{margin-left:5px !important;}
+.lm10	{margin-left:10px !important;}
+.lm15	{margin-left:15px !important;}
+.lm20	{margin-left:20px !important;}
+.lm25	{margin-left:25px !important;}
+.lm30	{margin-left:30px !important;}
+.lm35	{margin-left:35px !important;}
+.lm40	{margin-left:40px !important;}
+.lm45	{margin-left:45px !important;}
+.lm50	{margin-left:50px !important;}
+.lm55	{margin-left:55px !important;}
+.lm65	{margin-left:65px !important;}
+
+.rm5	{margin-right:5px !important;}
+.rm10	{margin-right:10px !important;}
+.rm15	{margin-right:15px !important;}
+.rm20	{margin-right:20px !important;}
+.rm25	{margin-right:25px !important;}
+.rm30	{margin-right:30px !important;}
+.rm35	{margin-right:35px !important;}
+.rm40	{margin-right:40px !important;}
+.rm45	{margin-right:45px !important;}
+.rm50	{margin-right:50px !important;}
+
+.bm4	{margin-bottom:4px !important;}
+.bm5	{margin-bottom:5px !important;}
+.bm10	{margin-bottom:10px !important;}
+.bm15	{margin-bottom:15px !important;}
+.bm20	{margin-bottom:20px !important;}
+.bm25	{margin-bottom:25px !important;}
+.bm30	{margin-bottom:30px !important;}
+.bm35	{margin-bottom:35px !important;}
+.bm40	{margin-bottom:40px !important;}
+.bm45	{margin-bottom:45px !important;}
+.bm50	{margin-bottom:50px !important;}
+.bm55	{margin-bottom:55px !important;}
+.bm60	{margin-bottom:60px !important;}
+
+.tm5	{margin-top:5px !important;}
+.tm10	{margin-top:10px !important;}
+.tm15	{margin-top:15px !important;}
+.tm20	{margin-top:20px !important;}
+.tm25	{margin-top:25px !important;}
+.tm30	{margin-top:30px !important;}
+.tm35	{margin-top:35px !important;}
+.tm40	{margin-top:40px !important;}
+.tm45	{margin-top:45px !important;}
+.tm50	{margin-top:50px !important;}
+.tm55	{margin-top:55px !important;}
+.tm60	{margin-top:60px !important;}
+.tm65	{margin-top:65px !important;}
+.tm70	{margin-top:70px !important;}
+.tm75	{margin-top:75px !important;}
+.tm80	{margin-top:80px !important;}
+.tm90	{margin-top:90px !important;}
+.tm100	{margin-top:100px !important;}
+
+
+/* Padding Set */
+.lp5	{padding-left:5px !important;}
+.lp10	{padding-left:10px !important;}
+.lp15	{padding-left:15px !important;}
+.lp20	{padding-left:20px !important;}
+.lp25	{padding-left:25px !important;}
+.lp30	{padding-left:30px !important;}
+.lp35	{padding-left:35px !important;}
+.lp40	{padding-left:40px !important;}
+.lp45	{padding-left:45px !important;}
+.lp50	{padding-left:50px !important;}
+
+.rp5	{padding-right:5px !important;}
+.rp10	{padding-right:10px !important;}
+.rp15	{padding-right:15px !important;}
+.rp20	{padding-right:20px !important;}
+.rp25	{padding-right:25px !important;}
+.rp30	{padding-right:30px !important;}
+.rp35	{padding-right:35px !important;}
+.rp40	{padding-right:40px !important;}
+.rp45	{padding-right:45px !important;}
+.rp50	{padding-right:50px !important;}
+
+.bp5	{padding-bottom:5px !important;}
+.bp10	{padding-bottom:10px !important;}
+.bp15	{padding-bottom:15px !important;}
+.bp20	{padding-bottom:20px !important;}
+.bp25	{padding-bottom:25px !important;}
+.bp30	{padding-bottom:30px !important;}
+.bp35	{padding-bottom:35px !important;}
+.bp40	{padding-bottom:40px !important;}
+.bp45	{padding-bottom:45px !important;}
+.bp50	{padding-bottom:50px !important;}
+
+.tp0	{padding-top:5px !important;}
+.tp5	{padding-top:5px !important;}
+.tp10	{padding-top:10px !important;}
+.tp15	{padding-top:15px !important;}
+.tp20	{padding-top:20px !important;}
+.tp25	{padding-top:25px !important;}
+.tp30	{padding-top:30px !important;}
+.tp35	{padding-top:35px !important;}
+.tp40	{padding-top:40px !important;}
+.tp45	{padding-top:45px !important;}
+.tp50	{padding-top:50px !important;}
+
+
+
+@media (min-width:1000px)  {
+
+.pc_none {display:none !important}
+.pc_br {display:block !important;}
+.pc_box_60  {width:60%; }
+ }	
+
+@media (max-width:1000px)  {
+
+.m_none {display:none !important}
+.m_br {display:block !important;}
+ }
+
+@media (max-width:800px)  {
+.m_tm10 {margin-top:10px}
+	}

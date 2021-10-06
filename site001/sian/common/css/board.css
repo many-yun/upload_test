@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/* Page Title */
+
+ 
+/* 게시판 */
+
+#board  {width:100%; float:left;}
+
+ table.list   {width:100%; float:left; border-top:1px solid #333;   border-bottom:1px solid #707070;  }
+table.list  th   { padding:11px; background-color:#f9f9f9; font-size:16px; line-height:1.3em; font-weight:600; color:#333;  border-bottom:1px solid #ddd;}
+table.list  td   {padding:11px; vertical-align:middle; font-size:16px; line-height:1.3em; color:#777; border-bottom:1px solid #ddd;  font-weight:400;}
+table.list  td  b {color:#015bac;  font-weight:500;   font-size:1em;  }
+table.list td a {color:#333 !important}  
+
+
+/*뷰페이지*/
+ 
+  
+p.view_title {font-size:17px; font-weight:500; color:#222; width:100%;  border-top:1px solid #333; padding-top:10px;  float:left; box-sizing:border-box; }
+p.view_info {font-size:14.5px; font-weight:400; color:#666; width:100%;  border-bottom:1px solid #ddd; padding-bottom:10px; float:left; box-sizing:border-box; }
+p.view_info .list_line {color:#999}
+p.view_info a {color:#015bac !important}
+p.view_info a:hover {text-decoration:underline }
+
+div.view_content {width:100%; float:left; border-bottom:1px solid #ddd; padding:20px 0; }
+div.reple {width:100%; float:left; border-bottom:1px solid #ddd; padding:15px 10px; font-size:15.5px; color:#666;  background-color:#f9f9f9; box-sizing:border-box;}
+div.reple  b {color:#333; font-weight:600; font-size:16px;}
+
+
+.list_next  {width:100%; float:left;   padding-top:10px;  padding-bottom:10px; box-sizing:border-box; border-bottom:1px solid #ddd;} 
+.list_next p {width:100%; float:left; font-size:16px; line-height:1.3em; color:#999; height:22px; overflow: hidden;  
+  text-overflow: ellipsis; 
+  white-space: nowrap;  }
+.list_next p:last-child {text-align:left; }
+.list_next b {font-weight:600; color:#333; padding-right:10px;}
+
+
+/*글쓰기테이블*/
+
+ 
+table.write   {width:100% !important;  float:left;   border-top:1px solid #333;}
+table.write tr {border-bottom:1px solid #ddd}
+table.write  th   {  width:13%; vertical-align:middle;  font-size:16px; text-align:left; font-weight:600; color:#333;   background-color:#f9f9f9;  padding:10px 10px;}
+table.write  td   {  padding:10px 10px;  font-size:15.5px;  line-height:1.4em; color:#777;  }
+ 
+table.write  td select  {vertical-align:middle; color:#666; border:1px solid #ddd; height:35px; font-size:0.94em; box-sizing:border-box; padding:0 5px;  }
+table.write  td input	{font-size:0.94em; color: #555; height:35px; border: 1px solid #ddd; background-color:#fff;  padding:0px 5px; box-sizing:border-box;  vertical-align:middle}
+
+ table.write  td img {vertical-align:middle;}
+table.write  td input.check  { width:20px;}
+table.write  td input.file {width:300px; border:none; height:auto}
+ table.write  b  {font-weight:600; color:#333;   }
+
+table.write  td textarea {width:100%; border:1px solid #ddd; min-height:130px; font-size:15.5px; box-sizing:border-box; padding:10px;}
+
+table.write td.email_input input {width:20%}
+table.write td.email_input input:nth-child(2) {width:30%; margin-top:3px;}
+
+table.write td.tel input {width:100px}
+ 
+table.write td.adress_input input {width:200px}
+table.write td.adress_input input:last-child {width:100%; margin-top:3px;}
+
+ 
+  
+/*페이지*/
+
+
+.page     {text-align:center;   width:100%; margin-top:20px; float:left; font-size:0}
+.page   ul { width:100%; text-align:center; }
+.page   li { display:inline-block; font-size:15px; font-weight:500; }
+ 
+
+.page a {
+	display:inline-block;
+ 	text-decoration:none; vertical-align:middle;
+ 	border:1px solid #d1d1d1;  width:33px; line-height:33px; height:33px;  margin-left:-1px;   color:#999; text-align:Center;
+   }
+
+.page   img {width:32px; height:32px; vertical-align:top;  }
+ 
+ .page a.ov  {border:1px solid #555; background-color:#555;   color:#fff !important;}
+
+
+
+/*서치*/
+ 						
+.search     {margin-top:20px;  width:100%; display:inline-block; text-align:right;}
+.search  input  {width:30%; height:33px !important; border:1px solid #ddd; padding-left:10px; font-size:0.93em; color:#666}
+.search  select  { font-size:0.93em; color:#666; border:1px solid #ddd;  vertical-align:middle; width:100px; height:33px !important;}
+.search a {background-color:#333; border-radius:3px; box-shadow:1px 1px 2px #ddd; color:#fff !important; line-height:33px; font-size:0.95em; font-weight:500; padding:0 30px; display:inline-block; vertical-align:middle;}
+ 
+
+/*FAQ*/
+.faq dl {width:100%; border-top:1px solid #ddd; margin-bottom:-1px;}
+
+.faq dt, dd {
+    padding:13px;
+
+}
+
+.faq  dt {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  transition: 0.7s;
+  color: #333;
+}
+.faq  dt span {font-size:0.80em; color:#666} 
+ 
+.faq  dt:hover {
+  background: #f9f9f9;
+}
+
+.faq  dt img {vertical-align:middle; margin-right:5px}
+.faq  dd {
+  background-color: #f9f9f9;
+  display: none;
+  padding: 10px;
+    border-bottom: 1px solid #ddd;
+    line-height: 1.4rem;
+    font-size:16px; color:#666;
+}
+
+.faq  .plusbnt {
+  width: 15px;
+  float: right;
+  vertical-align: bottom;
+margin-top: 5px;
+}
+ 
+
+.gall {width:100%; font-size:0; max-width:1300px; flex-wrap:wrap; 
+margin:0 auto; display:flex; }
+.gall li {display:inline-block; margin-right:2.6%; width:23%; margin-bottom:30px;  font-size:16px; font-weight:500; text-align:center; color:#333;  }
+.gall li a {color:#333 !important}  
+
+.gall li:nth-child(4n) {margin-right:0;}
+.gall li div {height:300px; width:100%; display:inline-block; margin-bottom:10px; }
+.gall li span {width:100%; letter-spacing:0; display:inline-block; font-size:14px; color:#777; font-weight:300}

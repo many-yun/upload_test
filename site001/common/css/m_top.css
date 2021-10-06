@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.cd-nav-trigger span.ham {background-color:#fff !important}
+
+header {  background: rgba(0,0,0,.2);  }
+header .logo {background:url('/common/img/w_logo.png') no-repeat center; background-size:100%;   }
+header .call {  border:1px solid rgba(255,255,255,.5);   color:rgba(255,255,255,.8)}
+
+header:hover .header-wrap { background: rgba(0,0,0,.5); }
+
+.gnb-menu a {  background:url('/common/img/li_bg.png') no-repeat right; }
+.gnb-menu:last-child a {background:none}
+
+.gnb-menu a h2 {color:#fff !important}
+
+
+.gnb-full { background: rgba(0,0,0,.7);    border-top:1px solid  rgba(255,255,255,.2); }
+
+.full-gnb {  border-left:1px solid rgba(255,255,255,.2);  }
+.full-gnb:last-child {border-right:1px solid  rgba(255,255,255,.2);}
+.full-gnb li a { color: #fff; }
+
+
+
+@media (max-width: 950px){
+.m_top h1 {  background:url('/common/img/w_logo.png') no-repeat center;   }
+}
